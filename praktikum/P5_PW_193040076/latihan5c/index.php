@@ -13,16 +13,17 @@
         <!-- my css -->
         <link rel="stylesheet" href="assets/css/style.css">
 
-        <title>document</title>
+        <title>latihan5c</title>
        
 
     </head>
     
 <body>
+
     <!-- menggunakan navbar -->
-        <div class="container">
+        <div class="container ">
             <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
-                <a class="navbar-brand col text-center text-white">Navbar</a>
+                <a class="navbar-brand col text-center text-white">Laptop Gaming</a>
             </nav>
         </div>
 
@@ -51,5 +52,6 @@
 
 <script src="assets/js/jquery-3.5.0.slim.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
+
 </body>
 </html>
