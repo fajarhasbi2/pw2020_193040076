@@ -1,69 +1,55 @@
 <?php
-// menghubungkan dengan file php lainnya
     require 'php/functions.php';
 
-// melakukan query
     $laptop = query("SELECT * FROM elektronik")
 
 ?>
 
 <html>
     <head>
-    
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+        <!-- css bootstrap -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- my css -->
+        <link rel="stylesheet" href="assets/css/style.css">
 
-      <!-- My css -->
-      <link rel="stylesheet" href="assets/css/style.css">
-
-        <title>latihan5c</title>
+        <title>document</title>
+       
 
     </head>
     
 <body>
-<!-- ini pake navbar -->
-        <div class="navbar-fixed">
-            <nav class="navbar">
-                <div class="container">
-                    <div class="nav-wrapper">
-                        <a href="#" class="brand-logo center">Laptop Gaming</a>
-                    </div>
-                </div>
+    <!-- menggunakan navbar -->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+                <a class="navbar-brand col text-center text-white">Navbar</a>
             </nav>
         </div>
 
-<!-- menggunakan collection -->
-            <div class="container">
-                <div class="collection">
-                    <h3 class=" center light  grey-text text-darken-3 "><b>List Laptop</b></h3>
-                    <?php foreach ($laptop as $lap) :?>
-                        <p class="tipe">
-                            <a href="php/detail.php?id= <?= $lap['id'] ?> " class="collection-item ">  
-                                <?= $lap["tipe"] ?>
-                            </a>
-                        </p>
-                    <?php endforeach; ?>
-                </div>
+    <!-- menggunakan card -->
+        <div class="container">
+            <div class="row">
+                <?php foreach ($laptop as $lap) :?>
+                    <div class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body" style="">
+                                <h5 class="card-title"><?= $lap["tipe"] ?></h5>
+                                    <a href="php/detail.php?id=<?= $lap['id'] ?>" class="btn btn-primary">pilih</a>
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
             </div>
+        </div>
+
+   
 
 
 
 
 
-     <!--JavaScript at end of body for optimized loading-->
-     <script type="text/javascript" src="aseets/js/materialize.min.js"></script>
-    <script>
-        const sideNav = document. querySelectorAll('.sidenav');
-          M.Sidenav.init(sideNav);
 
-        const parallax = document. querySelectorAll('.parallax');
-        M.Parallax.init(parallax);
-
-    </script>
+<script src="assets/js/jquery-3.5.0.slim.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
