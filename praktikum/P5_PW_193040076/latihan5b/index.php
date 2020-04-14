@@ -31,13 +31,13 @@
 
         <?php foreach ($leptop as $elek) :?>
         <tr>
-        <td><?=$elek["id"];?></td>
-        <td><img src="assets/img/<?=$elek ["gambar"]?>" ></td>
-        <td><?=$elek["tipe"];?></td>
-        <td><?=$elek["prosesor"];?></td>
-        <td><?=$elek["memori"];?></td>
-        <td><?=$elek["storage"];?></td>
-        <td><?=$elek["harga"];?></td>
+            <td><?=$elek["id"];?></td>
+            <td><img src="assets/img/<?=$elek ["gambar"]?>" ></td>
+            <td><?=$elek["tipe"];?></td>
+            <td><?=$elek["prosesor"];?></td>
+            <td><?=$elek["memori"];?></td>
+            <td><?=$elek["storage"];?></td>
+            <td><?=$elek["harga"];?></td>
         </tr>
         <?php endforeach; ?>
     </table>
