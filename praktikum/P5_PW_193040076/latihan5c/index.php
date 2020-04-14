@@ -1,7 +1,7 @@
 <?php
     require 'php/functions.php';
 
-    $laptop = query("SELECT * FROM elektronik")
+    $leptop = query("SELECT * FROM elektronik")
 
 ?>
 
@@ -30,12 +30,12 @@
     <!-- menggunakan card -->
         <div class="container">
             <div class="row">
-                <?php foreach ($laptop as $lap) :?>
+                <?php foreach ($leptop as $elek) :?>
                     <div class="col-sm-6">
                         <div class="card">
                             <div class="card-body" style="">
-                                <h5 class="card-title"><?= $lap["tipe"] ?></h5>
-                                    <a href="php/detail.php?id=<?= $lap['id'] ?>" class="btn btn-primary">pilih</a>
+                                <h5 class="card-title"><?= $elek["tipe"] ?></h5>
+                                    <a href="php/detail.php?id=<?= $elek['id'] ?>" class="btn btn-primary">pilih</a>
                             </div>
                         </div>
                     </div>

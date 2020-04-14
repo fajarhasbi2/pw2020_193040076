@@ -6,7 +6,7 @@
     mysqli_select_db($conn, "tubes_193040076") or die ("Database salah!");
 
 // query mengambil objek dari tabel di dalam database
-    $laptop = mysqli_query($conn, "SELECT * FROM elektronik");
+    $leptop = mysqli_query($conn, "SELECT * FROM elektronik");
 ?>
 
 <html>
@@ -31,15 +31,15 @@
             <th>Harga</th>
         </tr>
 
-        <?php while($lap = mysqli_fetch_assoc($laptop)) :?>
+        <?php while($elek = mysqli_fetch_assoc($leptop)) :?>
         <tr>
-        <td><?=$lap["id"];?></td>
-        <td><img src="assets/img/<?=$lap ["gambar"]?>" ></td>
-        <td><?=$lap["tipe"];?></td>
-        <td><?=$lap["prosesor"];?></td>
-        <td><?=$lap["memori"];?></td>
-        <td><?=$lap["storage"];?></td>
-        <td><?=$lap["harga"];?></td>
+        <td><?=$elek["id"];?></td>
+        <td><img src="assets/img/<?=$elek ["gambar"]?>" ></td>
+        <td><?=$elek["tipe"];?></td>
+        <td><?=$elek["prosesor"];?></td>
+        <td><?=$elek["memori"];?></td>
+        <td><?=$elek["storage"];?></td>
+        <td><?=$elek["harga"];?></td>
         </tr>
         <?php endwhile; ?>
     </table>
