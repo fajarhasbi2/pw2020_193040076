@@ -20,7 +20,7 @@
 <html>
     <head>
         <!-- css bootstrap -->
-        <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
     
         <title>latihan5c</title>
 
@@ -115,8 +115,8 @@
 
 
     <!-- javascript -->
-<script src="../assets/js/jquery-3.5.0.slim.min.js"></script>
-<script src="../assets/js/bootstrap.min.js"></script>
+<script src="../js/jquery-3.5.0.slim.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 
 </body>
 </html>
