@@ -24,9 +24,10 @@
 
     </head>
     
-<body>
+<body class="container bg-dark">
 
     <!-- menggunakan navbar -->
+    
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
         <a class="navbar-brand" href="#">FJR Master</a>
@@ -36,25 +37,26 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <div class="admin">
-                    <li class="nav-item">
-                        <a class="nav-link" href="php/admin.php">Admin</a>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#card">Home</a>
                     </li>
-                </div>
+            </div>
+
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="php/admin.php"><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Admin</button></a>
+                    </li>
                 </ul>
-                <form action="" method="get" class="form-inline my-2 my-lg-0">
+            <form action="" method="get" class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="text" name="keyword" placeholder="Cari" aria-label="Cari" autofocus>
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="cari">Cari</button>
-                </form>
-            </div>
+            </form>
     </div>
 </nav>
 
         <!-- menggunakan card -->
-        <div class="container">
+        <section id="card">
+        <div class="container text-light bg-dark">
             <div class="row">
                 <?php if(empty($leptop)) :?>
                     <h1>Data tidak ditemukan</h1>
@@ -62,10 +64,10 @@
             
                     <?php foreach ($leptop as $elek) :?>
                         <div class="col-sm-6">
-                            <div class="card">
+                            <div class="card bg-dark">
                                 <div class="card-body" style="">
                                     <h5 class="card-title"><?= $elek["tipe"] ?></h5>
-                                        <a href="php/detail.php?id=<?= $elek['id'] ?>" class="btn btn-primary">pilih</a>
+                                        <a href="php/detail.php?id=<?= $elek['id'] ?>"><button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Pilih</button></a>
                                 </div>
                             </div>
                         </div>
@@ -73,6 +75,7 @@
                 <?php endif;?>
             </div>
         </div>
+        </section>
 
    
 
