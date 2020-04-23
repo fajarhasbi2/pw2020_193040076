@@ -68,7 +68,7 @@
         <th>
         <button type="submit" name="ubah">Ubah Data</button>
         <button type="submit">
-            <a href="../index.php" style="text-decoration: none; color: black;">Kembali</a>
+            <a href="admin.php" style="text-decoration: none; color: black;">Kembali</a>
         </button>
         </th>
         </tr>
