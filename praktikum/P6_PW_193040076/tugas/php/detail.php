@@ -26,30 +26,27 @@
 
     </head>
 
-<body>
+<body class="bg-dark">
 
     <!-- menngunakan jumbotrone -->
 
-    <div class="jumbotron jumbotron-fluid  bg-primary">
+    <div class="jumbotron jumbotron-fluid  bg-success">
   <div class="container">
     <h1 class="display-4 text-center text-light"><b>SPESIFIKASI</b></h1>
   </div>
 </div>
 
     <!-- menggunakan card -->
-    <section>
-<div class="row">
-            <div class="col-6-col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="../assets/img/<?= $elek["gambar"]; ?>" class="card-img-top" alt="...">
-                </div>
-            </div>
-
-
-            <div class="col-md-8">
-                <table class="table table-striped table-dark">
+    <div class="card border-success mb-3 bg-dark" >
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="../assets/img/<?= $elek["gambar"]; ?>" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+      <table class="table table-striped table-dark">
                     <thead>
-                        <tr class="bg-primary text-center">
+                        <tr class="bg-success text-center">
                             <th colspan="3"><p><?= $elek["tipe"]; ?></p></<p></th>
                         </tr>
 
@@ -71,41 +68,20 @@
                             <th colspan ="2">Harga</th>
                             <th><p><?= $elek["harga"]; ?></p></th>
                         </tr>
-            </div>
                         <tr>
                             <th colspan="2"></th>
-                            <th><button type="button" class="btn btn-warning"><a href="../index.php">kembali</button></th>
+                            <th> <a href="../index.php"><button class="btn btn-outline-success my-2 my-sm-0" type="submit">Kembali</button></a></th>
                         </tr>
 
                     </tbody>
-                    
+                </table>
+      </div>
+    </div>
+  </div>
 </div>
-</section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
 
 

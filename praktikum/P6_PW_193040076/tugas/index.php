@@ -67,7 +67,10 @@
                             <div class="card bg-dark">
                                 <div class="card-body" style="">
                                     <h5 class="card-title"><?= $elek["tipe"] ?></h5>
-                                        <a href="php/detail.php?id=<?= $elek['id'] ?>"><button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Pilih</button></a>
+                                        <a href="php/detail.php?id=<?= $elek['id'] ?>">
+                                        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
+                                            <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>Pilih
+                                        </button></a>
                                 </div>
                             </div>
                         </div>
