@@ -73,6 +73,7 @@
         </th>
         </tr>
     </table>
+    </input>
 </form>
     
 </body>
