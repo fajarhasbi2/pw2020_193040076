@@ -1,0 +1,112 @@
+/* navbar */
+.navbar{
+    position: relative;
+    z-index: 1;
+  }
+
+  .jumbotron .container{
+    z-index: 1;
+    position: relative;
+
+}
+@font-face{
+    font-family: 'Permanent Marker';
+    src: url('assets/fonts/Permanent Marker/PermanentMarker-Regular.ttf') format('truetype');
+  }
+  
+  .navbar .navbar-brand{
+    
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+  }
+
+  .navbar .nav-link i{
+    
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+  }
+
+  .nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid rgb(255, 0, 0);
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.nav .nav-item a{
+    padding-right: 15px;
+}
+  
+  
+  
+  .jumbotron{
+    background-image: url(../assets/img/BACKGROUND2.png);
+    background-size: cover;
+    height: 740px;
+    text-align: center;
+    position: relative;
+    margin-top: -85px;
+  }
+  
+  .gambar1 .jumbotron{
+    background-image: url(../assets/img/BACKGROUND3.png);
+    background-size: cover;
+    height: 640px;
+    text-align: left;
+    position: relative;
+  }
+
+  .jumbotron .gambar1::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 80%;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+  }
+
+
+  .jumbotron .container{
+    z-index: 1;
+    position: relative;
+  
+  }
+  
+  .jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 90%;
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .jumbotron .display-4{
+    color: rgb(255, 255, 255);
+    margin-top: 250px;
+    font-weight: 200px;
+    text-shadow: 5px 5px 10px rgba(255, 1, 1, 0.6);
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-family: 'Permanent Marker', cursive;
+  
+  }
+
+  .jumbotron .display-5{
+    color: rgb(255, 115, 0);
+    margin-top: 50px;
+    font-weight: 200px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  
+  

@@ -1,0 +1,123 @@
+@font-face{
+    font-family: 'Permanent Marker';
+    src: url('assets/fonts/Bangers/Bangers-Regular.ttf') format('truetype');
+  }
+.jumbotron .gambar{
+    background-image: url(../assets/img/JUMBO.png);
+    background-size: cover;
+    height:500px;
+    text-align: center;
+    position: relative;
+    margin-top: -85px;
+    margin-bottom: -100px;
+  }
+
+  .jumbotron .gambar::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 70%;
+    background-image: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+  }
+
+  .jumbotron .gambar1{
+    background-image: url(../assets/img/DETAIL2.png);
+    background-size: cover;
+    height: 550px;
+    text-align: center;
+    position: relative;
+    margin-top:-80px;
+  }
+
+  .jumbotron .gambar1::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(farthest-corner, rgb(0, 0, 0, 0)90%, rgba(0, 0, 0)), linear-gradient(to top, rgb(0, 0, 0, 0)95%, rgba(0, 0, 0));
+    position: absolute;
+    bottom: 0;
+  }
+
+  .card h1{
+      padding-top: 150px;
+  }
+  
+  .jumbotron .gambar1 .display-4{
+    color:rgb(255, 102, 0);
+    font-weight: 200px;
+    padding-top: 120px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    font-family: 'Bangers', cursive;
+  
+  }
+
+  .jumbotron .gambar2{
+    background-image: url(../assets/img/MEMORI.png);
+    background-size: cover;
+    height: 550px;
+    text-align: center;
+    position: relative;
+    margin-top:-80px;
+  }
+
+  .jumbotron .gambar2::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(farthest-corner, rgb(0, 0, 0, 0)90%, rgba(0, 0, 0)), linear-gradient(to top, rgb(0, 0, 0, 0)95%, rgba(0, 0, 0));
+    position: absolute;
+    bottom: 0;
+  }
+
+  .jumbotron .gambar2 .display-5{
+    color:rgb(255, 102, 0);
+    font-weight: 200px;
+    padding-top: 120px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    font-family: 'Bangers', cursive;
+  }
+
+  .jumbotron .gambar3{
+    background-image: url(../assets/img/STORAGE.png);
+    background-size: cover;
+    height: 550px;
+    text-align: center;
+    position: relative;
+    margin-top:-80px;
+  }
+
+  .jumbotron .gambar3::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(farthest-corner, rgb(0, 0, 0, 0)90%, rgba(0, 0, 0)), linear-gradient(to top, rgb(0, 0, 0, 0)95%, rgba(0, 0, 0));
+    position: absolute;
+    bottom: 0;
+  }
+
+  .jumbotron .gambar3 .display-6{
+    color:rgb(255, 102, 0);
+    font-weight: 200px;
+    padding-top: 120px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    font-family: 'Bangers', cursive;
+  }
+
+  .card .card-body{
+    color:rgb(255, 102, 0);
+    font-weight: 200px;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px rgba(255, 1, 1, 0.6);
+    font-family: 'Bangers', cursive;
+  }
