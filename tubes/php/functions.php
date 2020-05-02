@@ -56,7 +56,7 @@ function ubah($data)
 {
     $conn = koneksi();
 
-    $id = htmlspecialchars($data['id']);
+    $id = $data['id'];
     $gambar = htmlspecialchars($data['gambar']);
     $tipe = htmlspecialchars($data['tipe']);
     $prosesor = htmlspecialchars($data['prosesor']);

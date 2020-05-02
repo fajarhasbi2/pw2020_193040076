@@ -36,33 +36,33 @@
         <tr>
             <td><label for="gambar">Gambar</label></td>
             <td>:</td>
-            <td><input type="text" name="gambar"  value="<?= $elek['gambar'];?>"></td>
+            <td><input type="text" name="gambar"  value="<?= $elek['gambar'];?>" value="<?= $elek['gambar'];?>"></td>
         </tr>
    
         <tr>
             <td><label for="tipe">Tipe</label></td>
             <td>:</td>
-            <td><input type="text" name="tipe"  value="<?= $elek['tipe'];?>"></td>
+            <td><input type="text" name="tipe"  value="<?= $elek['tipe'];?>" value="<?= $elek['tipe'];?>"></td>
         </tr>
         <tr>
             <td><label for="prosesor">Prosesor</label></td>
             <td>:</td>
-            <td><input type="text" name="prosesor"  value="<?= $elek['prosesor'];?>"></td>
+            <td><input type="text" name="prosesor"  value="<?= $elek['prosesor'];?>" value="<?= $elek['prosesor'];?>"></td>
         </tr>
         <tr>
             <td><label for="memori">Memori</label></td>
             <td>:</td>
-            <td><input type="text" name="memori" value="<?= $elek['memori'];?>"></td>
+            <td><input type="text" name="memori" value="<?= $elek['memori'];?>" value="<?= $elek['memori'];?>"></td>
         </tr>
         <tr>
             <td><label for="storage">Storage</label></td>
             <td>:</td>
-            <td><input type="text" name="storage"  value="<?= $elek['storage'];?>"></td>
+            <td><input type="text" name="storage"  value="<?= $elek['storage'];?>" value="<?= $elek['storage'];?>"></td>
         </tr>
         <tr>
             <td><label for="harga">Harga</label></td>
             <td>:</td>
-            <td><input type="text" name="harga"  value="<?= $elek['harga'];?>"></td>
+            <td><input type="text" name="harga"  value="<?= $elek['harga'];?>" value="<?= $elek['harga'];?>"></td>
         </tr>
         <tr>
         <th>

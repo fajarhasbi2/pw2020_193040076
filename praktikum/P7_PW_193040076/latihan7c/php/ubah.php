@@ -55,27 +55,27 @@
         <input type="hidden" name="id" value="<?= $elek['id'];?>">
                 <div class="form-group">
                     <label for="gambar">Gambar</label>
-                    <input type="text" class="form-control" id="gambar" name="gambar">
+                    <input type="text" class="form-control" id="gambar" name="gambar" value="<?= $elek['gambar'];?>">
                 </div>
                 <div class="form-group">
                     <label for="tipe">Tipe</label>
-                    <input type="text" class="form-control" id="tipe" name="tipe">
+                    <input type="text" class="form-control" id="tipe" name="tipe" value="<?= $elek['tipe'];?>">
                 </div>
                 <div class="form-group">
                     <label for="prosesor">Prosesor</label>
-                    <input type="text" class="form-control" id="prosesor" name="prosesor">
+                    <input type="text" class="form-control" id="prosesor" name="prosesor" value="<?= $elek['prosesor'];?>">
                 </div>
                 <div class="form-group">
                     <label for="memori">Memori</label>
-                    <input type="text" class="form-control" id="memori" name="memori">
+                    <input type="text" class="form-control" id="memori" name="memori" value="<?= $elek['memori'];?>">
                 </div>
                 <div class="form-group">
                     <label for="storage">Storage</label>
-                    <input type="text" class="form-control" id="storage" name="storage">
+                    <input type="text" class="form-control" id="storage" name="storage" value="<?= $elek['storage'];?>">
                 </div>
                 <div class="form-group">
                     <label for="harga">Harga</label>
-                    <input type="text" class="form-control" id="harga" name="harga">
+                    <input type="text" class="form-control" id="harga" name="harga" value="<?= $elek['harga'];?>">
                 </div>
 
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="ubah">Ubah Data</button>
