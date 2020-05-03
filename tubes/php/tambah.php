@@ -13,7 +13,7 @@
 			
 
 
-		if (tambah($_POST) > 0) {
+		if (tambah($_POST,$_FILES) > 0) {
 			echo 	"<script>
                             alert('data berhasil ditambahkan!');
                             document.location.href = 'admin.php';
@@ -67,10 +67,11 @@
             <div class="card-body text-success ">
 
                 <!-- menggunakan forms -->
-                <form action="" method="post">
-                        <div class="form-group">
-                            <label for="gambar">Gambar</label>
-                            <input type="text" class="form-control" id="gambar" name="gambar" placeholder="Example input gambar">
+                <form action="" method="post" enctype="multipart/form-data">
+                            
+                         <div class="custom-file">
+                            <label class="custom-file-label" for="gambar">Pilih Gambar</label>
+                            <input type="file" class="custom-file-input" id="gambar"  name="gambar" required>
                         </div>
                         <div class="form-group">
                             <label for="tipe">Tipe</label>

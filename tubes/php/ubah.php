@@ -71,11 +71,13 @@
 <div class="card bg-dark ">
   <div class="card-body text-success ">
     <!-- menggunakan forms -->
-        <form action="" method="post">
+        <form action="" method="post" enctype="multipart/form-data">
         <input type="hidden" name="id" value="<?= $elek['id'];?>">
+        <input type="hidden" name="gambarLama" value="<?= $elek['gambar'];?>">
                 <div class="form-group">
                     <label for="gambar">Gambar</label>
-                    <input type="text" class="form-control" id="gambar" name="gambar" value="<?= $elek['gambar'];?>">
+                    <img src="../assets/img/<?= $elek['gambar'];?>" width="100">
+                    <input type="file" class="form-control-file" id="gambar" name="gambar" >
                 </div>
                 <div class="form-group">
                     <label for="tipe">Tipe</label>
