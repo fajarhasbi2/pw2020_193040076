@@ -18,12 +18,19 @@
 
         <!-- my css -->
         <link rel="stylesheet" href="../css/style3.css">
+        <style>
+        .spinner-border{
+            display:none;
+        }
+        </style>
 
         <!-- my fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
         
 
         <title>Product</title>
+        <script src="../js/jquery-3.5.0.min.js"></script>
+        <script src="../js/script1.js"></script>
        
 
     </head>
@@ -57,8 +64,11 @@
                     </li>
                 </ul>
             <form action="" method="get" class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" name="keyword" placeholder="Cari" aria-label="Cari" autofocus>
-                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit" name="cari">Cari</button>
+                    <input class="form-control mr-sm-2" type="text" name="keyword" placeholder="Cari" aria-label="Cari" id="keyword" autofocus>
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit" name="cari" id="tombol-Cari" >Cari</button>
+                    <div class="spinner-border text-success" role="status">
+                        <span class="sr-only">Loading...</span>
+                    </div>
             </form>
     </div>
 </nav>
@@ -68,10 +78,9 @@
 
         <!-- container -->
     <div class="container">
-
         <!-- menggunakan card -->
         <section id="card">
-        <div class="container text-light ">
+        <div class="container text-light " id="container">
             <div class="row">
                 <?php if(empty($leptop)) :?>
                     <h1>Data tidak ditemukan</h1>
@@ -96,7 +105,6 @@
             </div>
         </div>
         </section>
-
     <!-- ahir container -->
     </div>
     </section>
@@ -116,7 +124,7 @@
 
 
 
-<script src="../js/jquery-3.5.0.slim.min.js"></script>
+
 <script src="../js/bootstrap.min.js"></script>
 
 </body>

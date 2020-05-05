@@ -32,13 +32,20 @@
         <link rel="stylesheet" href="../css/bootstrap.min.css">
 
         <!-- my css -->
-        <link rel="stylesheet" href="">
+        <style>
+        .spinner-border{
+            display:none;
+        }
+        </style>
 
         <!-- my fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Playfair+Display&display=swap" rel="stylesheet">
    
     <title>Latihan 7c</title>
+
+    <script src="../js/jquery-3.5.0.min.js"></script>
+
 </head >
 <body style="background-color: black;">
 
@@ -65,13 +72,16 @@
                     </li>
                 </ul>
             <form action="" method="get" class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" name="keyword" placeholder="Cari" aria-label="Cari" autofocus>
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="cari">Cari</button>
+                    <input class="form-control mr-sm-2" type="text" name="keyword" placeholder="Cari" aria-label="Cari"  id="keyword" autofocus>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="cari" id="tombol-Cari">Cari</button>
+                    <div class="spinner-border text-success" role="status">
+                        <span class="sr-only">Loading...</span>
+                    </div>
             </form>
     </div>
 </nav>
 
-<section>
+<section id="container">
 <table class="table " style="background-color: black;">
         <thead>
             <tr class="text-light" style="font-family: 'Carter One', cursive, serif;">
@@ -136,8 +146,8 @@
 
 
 
-    <script src="../js/jquery-3.5.0.slim.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/script.js"></script>
     
 </body>
 </html>
