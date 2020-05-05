@@ -42,7 +42,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Playfair+Display&display=swap" rel="stylesheet">
    
-    <title>Latihan 7c</title>
+    <title>Admin</title>
 
     <script src="../js/jquery-3.5.0.min.js"></script>
 

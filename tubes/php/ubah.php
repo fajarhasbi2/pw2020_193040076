@@ -39,7 +39,7 @@
      <!-- my fonts -->
      <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
 
-    <title>Tugas</title>
+    <title>Ubah Data</title>
 </head>
 <body style="background-color:black;">
 
@@ -122,7 +122,7 @@
     
 
 
-<script src="../js/jquery-3.5.0.slim.min.js"></script>
+<script src="../js/jquery-3.5.0.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 
 </body>

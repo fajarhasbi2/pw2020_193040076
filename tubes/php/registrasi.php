@@ -28,7 +28,7 @@
     <!-- my fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     
-    <title>Latihan 7c</title>
+    <title>Registrasi</title>
 
 </head>
 <body style="background-color:black;">

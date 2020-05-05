@@ -28,7 +28,7 @@
         <!-- font -->
         <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Playfair+Display&display=swap" rel="stylesheet">
     
-        <title>Latihan 7c</title>
+        <title>Detail</title>
 
     </head>
 
@@ -110,7 +110,7 @@
 
 
     <!-- javascript -->
-<script src="../js/jquery-3.5.0.slim.min.js"></script>
+<script src="../js/jquery-3.5.0.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 
 </body>
