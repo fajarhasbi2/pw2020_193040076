@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 02 Bulan Mei 2020 pada 08.54
+-- Waktu pembuatan: 07 Bulan Mei 2020 pada 07.49
 -- Versi server: 10.4.8-MariaDB
 -- Versi PHP: 7.3.11
 
@@ -71,9 +71,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `username`, `password`) VALUES
-(3, 'fajar', '$2y$10$gQg/GBEsbERQpHLGLqLWYuJ4Epe6J2ER.ZYrdCLmv.wf9poQVJFiC'),
-(5, 'admin', '$2y$10$K6mvgK5F0aqUzPxM/0l3ne0VtfoDT07yDKBPQfuvnAYZhvSg.hi26'),
-(6, 'aa', '$2y$10$QpXIVc2TJDZcYQvcEKvHR.yS.ViI9I3QulqwPn1q/x3AXJCEASHWC');
+(3, 'fajar', '$2y$10$gQg/GBEsbERQpHLGLqLWYuJ4Epe6J2ER.ZYrdCLmv.wf9poQVJFiC');
 
 --
 -- Indexes for dumped tables
@@ -99,7 +97,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT untuk tabel `elektronik`
 --
 ALTER TABLE `elektronik`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=43;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=67;
 
 --
 -- AUTO_INCREMENT untuk tabel `user`

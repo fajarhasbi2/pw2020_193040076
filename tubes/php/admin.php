@@ -36,6 +36,13 @@
         .spinner-border{
             display:none;
         }
+
+        @media print{
+            .navbar, .opsi{
+                display:none;
+            
+            }
+        }
         </style>
 
         <!-- my fonts -->
@@ -86,7 +93,7 @@
         <thead>
             <tr class="text-light" style="font-family: 'Carter One', cursive, serif;">
                 <th scope="col">#</th>
-                <th scope="col">Opsi</th>
+                <th scope="col" class="opsi">Opsi</th>
                 <th scope="col">Gambar</th>
                 <th scope="col">Tipe</th>
                 <th scope="col">Prosesor</th>
@@ -109,7 +116,7 @@
                 <?php foreach ($leptop as $elek) :?>
             <tr class="text-light" style="font-family: 'Carter One', cursive, serif;">
                 <td><?=$i; ?></td>
-                <td>
+                <td class="opsi">
                     <a href="ubah.php?id=<?= $elek["id"];?>"><button class="btn btn-outline-success my-2 my-sm-0">Ubah</button></a>
                     <a href="hapus.php?id=<?= $elek["id"];?>" onclick="return confirm('Yakin datanya mau dihapus?')"><button class="btn btn-outline-success my-2 my-sm-0">Hapus</button></a>
                 </td>
