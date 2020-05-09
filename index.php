@@ -77,9 +77,9 @@
                 <div class="card-body">
                 <h5 class="card-title" style="font-family: 'Galada', cursive; color:white;">P7_PW_193040076</h5>
                     <div class="btn-group-vertical">
-                        <a href="praktikum/P7_PW_193040076/latihan5a"><button type="button" class="btn btn-outline-success">Latihan 7a</button></a><br>
-                        <a href="praktikum/P7_PW_193040076/latihan5b"><button type="button" class="btn btn-outline-success">Latihan 7b</button></a><br>
-                        <a href="praktikum/P7_PW_193040076/latihan5c"><button type="button" class="btn btn-outline-success">Latihan 7c</button></a><br>
+                        <a href="praktikum/P7_PW_193040076/latihan7a"><button type="button" class="btn btn-outline-success">Latihan 7a</button></a><br>
+                        <a href="praktikum/P7_PW_193040076/latihan7b"><button type="button" class="btn btn-outline-success">Latihan 7b</button></a><br>
+                        <a href="praktikum/P7_PW_193040076/latihan7c"><button type="button" class="btn btn-outline-success">Latihan 7c</button></a><br>
                     </div>
                 </div>
             </div>
